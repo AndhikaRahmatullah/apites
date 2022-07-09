@@ -1,27 +1,3 @@
-// fetch("../tes.json")
-// 	.then(response => response.json())
-// 	// .then(response => console.log(response))
-// 	.then((data) => {
-// 		let output = `<h2>Data : </h2>`
-// 		console.log(data);
-// 		data.forEach(users => {
-// 			output += `
-// 			<ul>
-// 				<li> Nama Lengkap : ${users.nama}</li>
-// 				<li> Tempat, Tanggal Lahir : ${users.tempatLahir}, ${users.tanggalLahir}</li>
-// 				<li> Email : ${users.email}</li>
-// 				<li> Pendidikan Terakhir : ${users.pendidikan}</li>
-// 				<br>
-// 			</ul>
-// 			`;
-// 		});
-// 		let tes = document.querySelector(`#tes`);
-// 		tes.innerHTML = output;
-// 		tes.classList.add('text-white', 'pt-5')
-// 	})
-
-
-
 const cari = document.querySelector(`#cari`);
 cari.addEventListener("click", function () {
 	let keyword = document.querySelector(`#keyword`);
