@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+		<title>Admin</title>
+	</head>
+	<body>
+		<section class="bg-cover w-full h-screen" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static2.thetravelimages.com/wordpress/wp-content/uploads/2022/04/aerial-view-los-cabos-sailboats.jpg)">
+			<!-- header -->
+			<div class="p-10">
+				<p class="text-slate-50 text-center text-5xl md:text-6xl font-1 md:grid md:justify-center">
+					Data Siswa <br class="md:hidden" />
+					SD Negeri Neglasari
+				</p>
+			</div>
+
+			<!-- input -->
+			<div class="mx-16 my-3 flex justify-center">
+				<input type="text" id="keyword" class="w-[30rem] outline-none font-2 px-2 focus:ring-2 focus:ring-cyan-400 transition-all text-slate-900" placeholder="Masukan Nama Siswa" />
+				<button class="bg-cyan-500 border-2 border-cyan-500 px-4 py-2 font-serif" id="cari">Cari</button>
+			</div>
+			<p class="text-slate-50 text-3xl p-5 font-2" id="tes"></p>
+		</section>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

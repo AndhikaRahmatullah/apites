@@ -1,0 +1,23 @@
+[
+	{
+		"nama": "Andhika Rahmatullah",
+		"tempatLahir": "Bogor",
+		"tanggalLahir": "20 Maret 2001",
+		"email": "dikarahmatullah909@gmail.com",
+		"pendidikan": "SMA"
+	},
+	{
+		"nama": "Gathan Rahmanda",
+		"tempatLahir": "Bogor",
+		"tanggalLahir": "15 Oktober 2005",
+		"email": "gathanrahmanda@gmail.com",
+		"pendidikan": "SMP"
+	},
+	{
+		"nama": "Fazra Ramadhana",
+		"tempatLahir": "Bogor",
+		"tanggalLahir": "08 November 2002",
+		"email": "fazraramadhana@gmail.com",
+		"pendidikan": "SMK"
+	}
+]
