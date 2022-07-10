@@ -10,38 +10,35 @@
 	<body>
 		<!-- navbar -->
 		<section class="">
-			<nav class="relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light">
-				<div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
-					<button class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-							<path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
-						</svg>
-					</button>
-					<a class="text-xl text-black" href="#">SD Negeri Neglasari</a>
-					<div class="collapse navbar-collapse flex justify-end" id="navbarSupportedContent">
-						<!-- Left links -->
-						<ul class="navbar-nav flex flex-col list-style-none mr-auto">
-							<li class="nav-item px-2">
-								<a class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-2 hover:bg-cyan-500 rounded-lg transition-all" href="#">Beranda</a>
-							</li>
-							<li class="nav-item pr-2">
-								<a class="nav-link active cursor-default" aria-current="page">Siswa</a>
-							</li>
-							<li class="nav-item pr-2">
-								<a class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-2 hover:bg-cyan-500 rounded-lg transition-all" href="#">Pemberitahuan</a>
-							</li>
-							<li class="nav-item pr-2">
-								<a class="nav-link disabled text-gray-300 p-0">Disabled</a>
-							</li>
-						</ul>
-						<!-- Left links -->
+			<nav class="aspect-auto bg-white w-full h-20 grid grid-cols-5 text-slate-900">
+				<!-- nama -->
+				<div class="grid content-center h-full pl-6 w-52 cursor-default">
+					<marquee class="font-3 text-2xl">SD Negeri Neglasari</marquee>
+				</div>
+				<!-- navbar -->
+				<div class="col-span-3 grid content-center">
+					<div class="flex justify-end mr-6 font-4 text-lg">
+						<div class="grid content-center h-full">
+							<a href="" class="hover:bg-gray-500 hover:rounded-lg p-2 transition-all hover:text-white">Beranda</a>
+						</div>
+						<div class="grid content-center h-full ml-5 cursor-default">
+							<a class="p-2 rounded-lg text-gray-500" aria-current="page">Siswa</a>
+						</div>
+						<div class="grid content-center h-full ml-5">
+							<a href="" class="hover:bg-gray-500 hover:rounded-lg p-2 transition-all hover:text-white">Pengumuman</a>
+						</div>
 					</div>
-					<!-- Collapsible wrapper -->
+				</div>
+				<!-- waktu -->
+				<div class="grid content-center h-full cursor-default justify-items-end pr-6 font-3 duration-1000" id="chg">
+					<p class="p-2 text-gray-500" id="tgl"></p>
+					<p class="p-2 text-gray-500 hidden" id="jam"></p>
 				</div>
 			</nav>
 		</section>
 
-		<section class="bg-cover min-w-full min-h-screen" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static2.thetravelimages.com/wordpress/wp-content/uploads/2022/04/aerial-view-los-cabos-sailboats.jpg)">
+		<!-- search data -->
+		<section class="bg-cover min-w-full min-h-screen pt-10" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static2.thetravelimages.com/wordpress/wp-content/uploads/2022/04/aerial-view-los-cabos-sailboats.jpg)">
 			<!-- header -->
 			<div class="p-10">
 				<p class="text-slate-50 text-center text-5xl md:text-6xl font-1 md:grid md:justify-center">
@@ -52,8 +49,8 @@
 
 			<!-- input -->
 			<div class="mx-16 my-3 flex justify-center">
-				<input type="text" id="keyword" class="w-[30rem] outline-none font-2 px-2 focus:ring-2 focus:ring-cyan-400 transition-all text-slate-900" placeholder="Masukan Nama Siswa" />
-				<button class="bg-cyan-500 border-2 border-cyan-500 px-4 py-2 font-serif" id="cari">Cari</button>
+				<input type="text" id="keyword" class="w-[30rem] outline-none font-2 px-2 focus:shadow-xl focus:shadow-cyan-500 transition-all text-slate-900 rounded-l-lg" placeholder="Masukan Nama Siswa" />
+				<button class="bg-cyan-500 border-2 border-cyan-500 px-4 py-2 font-serif rounded-r-lg hover:bg-cyan-600 hover:border-cyan-600 active:bg-cyan-700 active:border-cyan-700" id="cari">Cari</button>
 			</div>
 			<p class="text-slate-50 text-xl p-5 font-2 md:text-3xl" id="tes"></p>
 		</section>

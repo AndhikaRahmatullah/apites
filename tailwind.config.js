@@ -4,7 +4,9 @@ module.exports = {
     extend: {
       fontFamily: {
         '2': ['Arima'],
-        '1': ['Passion One']
+        '1': ['Passion One'],
+        '3': ['Patua One'],
+        '4': ['Salsa']
       },
     },
   },
