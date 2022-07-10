@@ -8,7 +8,43 @@
 		<title>Siswa</title>
 	</head>
 	<body>
-		<!-- navbar -->
+		<!-- navbar sm to md -->
+		<section class="">
+			<div class="bg-white w-full h-full text-slate-900 md:hidden">
+				<!-- tampilan awal -->
+				<div class="grid grid-cols-5">
+					<!-- hamburger -->
+					<div class="m-4 grid grid-rows-3 gap-1 w-fit" id="hamburger">
+						<div class="aspect-auto w-10 h-2 bg-slate-900"></div>
+						<div class="aspect-auto w-10 h-2 bg-slate-900"></div>
+						<div class="aspect-auto w-10 h-2 bg-slate-900"></div>
+					</div>
+					<!-- nama -->
+					<div class="cursor-default col-span-4">
+						<p class="grid content-center h-full w-full font-3 text-2xl justify-end pr-3">SD Negeri Neglasari</p>
+					</div>
+				</div>
+				<!-- navbar -->
+				<div class="hidden aspect-auto w-full h-1 bg-slate-900 duration-1000" id="navbar-sm-line"></div>
+				<div class="hidden grid-rows-4 mt-3 font-4 duration-1000" id="navbar-sm">
+					<div class="px-4">
+						<a href="#" class="">Beranda</a>
+					</div>
+					<div class="px-4">
+						<a aria-current="page" class="bg-gray-500 p-2 rounded-lg text-white">Siswa</a>
+					</div>
+					<div class="px-4">
+						<a href="#" class="">Pengumuman</a>
+					</div>
+					<div class="px-6 py-2" id="chg2">
+						<p class="text-gray-500" id="tgl2"></p>
+						<p class="text-gray-500 hidden" id="jam2"></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- navbar md and above-->
 		<section class="">
 			<nav class="aspect-auto bg-white w-full h-20 grid-cols-5 text-slate-900 hidden md:grid">
 				<!-- nama -->
