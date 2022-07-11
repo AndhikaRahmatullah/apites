@@ -79,14 +79,6 @@ chg.addEventListener('mouseleave', () => {
 	jam.classList.add('hidden');
 	tgl.classList.remove('hidden');
 })
-// event change date to time (for sm screen)
-const chg2 = document.querySelector(`#chg2`);
-chg2.addEventListener('click', () => {
-	const jam2 = document.querySelector(`#jam2`);
-	const tgl2 = document.querySelector(`#tgl2`);
-	jam2.classList.toggle('hidden');
-	tgl2.classList.toggle('hidden');
-})
 
 
 // event search

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+		<title>KKN - Beranda</title>
+	</head>
+	<body>
+		<!-- navbar sm to md -->
+		<section class="">
+			<div class="bg-white w-full h-full text-slate-900 md:hidden">
+				<!-- tampilan awal -->
+				<div class="grid grid-cols-5">
+					<!-- hamburger -->
+					<div class="m-4 grid grid-rows-3 gap-1 w-fit p-1 transition-all active:bg-gray-500" id="hamburger">
+						<div class="aspect-auto w-10 h-2 bg-slate-900"></div>
+						<div class="aspect-auto w-10 h-2 bg-slate-900"></div>
+						<div class="aspect-auto w-10 h-2 bg-slate-900"></div>
+					</div>
+					<!-- nama -->
+					<div class="cursor-default col-span-4">
+						<p class="grid content-center h-full w-full font-3 text-2xl justify-end pr-3">Kuliah Kerja Nyata 2022</p>
+					</div>
+				</div>
+				<!-- navbar -->
+				<div class="hidden aspect-auto w-full h-1 bg-slate-900 transition-all duration-1000" id="navbar-sm-line"></div>
+				<div class="hidden grid-rows-4 mt-3 font-4 transition-all duration-1000" id="navbar-sm">
+					<div class="px-4">
+						<a aria-current="page" class="bg-gray-500 p-2 rounded-lg text-white">Beranda</a>
+					</div>
+					<div class="px-4">
+						<a href="./mahasiswa.html" class="">Mahasiswa</a>
+					</div>
+					<div class="px-4">
+						<a href="#" class="">Laporan</a>
+					</div>
+					<div class="px-6 py-2" id="chg2">
+						<p class="text-slate-500" id=""><span class="text-gray-500" id="tgl2"></span> [ <span class="text-gray-500" id="jam2"></span> ]</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- navbar md and above-->
+		<section class="">
+			<nav class="aspect-auto bg-white w-full h-20 grid-cols-5 text-slate-900 hidden md:grid">
+				<!-- nama -->
+				<div class="grid content-center h-full pl-6 w-52 cursor-default">
+					<marquee class="font-3 text-2xl">Kuliah Kerja Nyata 2022</marquee>
+				</div>
+				<!-- navbar -->
+				<div class="col-span-3 grid content-center">
+					<div class="flex justify-end mr-6 font-4 text-lg">
+						<div class="grid content-center h-full">
+							<a aria-current="page" class="p-2 rounded-lg text-gray-500">Beranda</a>
+						</div>
+						<div class="grid content-center h-full ml-5 cursor-default">
+							<a href="./mahasiswa.html" class="hover:bg-gray-500 hover:rounded-lg p-2 transition-all hover:text-white">Mahasiswa</a>
+						</div>
+						<div class="grid content-center h-full ml-5">
+							<a href="#" class="hover:bg-gray-500 hover:rounded-lg p-2 transition-all hover:text-white">Laporan</a>
+						</div>
+					</div>
+				</div>
+				<!-- waktu -->
+				<div class="grid content-center h-full cursor-default justify-items-end pr-6 font-3 duration-1000" id="chg">
+					<p class="p-2 text-gray-500" id="tgl"></p>
+					<p class="p-2 text-gray-500 hidden" id="jam"></p>
+				</div>
+			</nav>
+		</section>
+
+		<!-- page -->
+		<section class="bg-cover min-w-full min-h-screen pt-10 cursor-default py-3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static2.thetravelimages.com/wordpress/wp-content/uploads/2022/04/aerial-view-los-cabos-sailboats.jpg)">
+			<!-- title -->
+			<div class="m-2">
+				<p class="text-center text-5xl font-4 text-white">KULIAH KERJA NYATA 2022</p>
+			</div>
+
+			<!-- tabel -->
+			<div class="md:grid md:grid-rows-6 mt-10 mx-5">
+				<!-- lokasi kkn -->
+				<div class="m-2 grid md:grid-cols-3 mb-16 md:mb-5">
+					<p class="text-2xl font-3 text-white md:border-2 p-2 grid content-center mb-4 md:mb-0">Lokasi KKN :</p>
+					<p class="text-2xl font-3 text-white md:col-span-2 p-2 border-2 rounded-lg md:rounded-none md:border-t-2 md:border-b-2 md:border-r-2 grid md:content-center content-start text-justify">Desa Sipak, Kecamatan Jasinga, Kabupaten Bogor, Jawa Barat.</p>
+				</div>
+				<!-- anggota -->
+				<div class="m-2 grid md:grid-cols-3 mb-16 md:mb-5">
+					<p class="text-2xl font-3 text-white md:border-2 p-2 grid content-center mb-4 md:mb-0">Anggota Kelompok :</p>
+					<p class="text-2xl font-3 text-white md:col-span-2 p-2 border-2 rounded-lg md:rounded-none md:border-t-2 md:border-b-2 md:border-r-2 grid md:content-center content-start">1. Muhammad Irfan Nur Hikmah <br class="md:hidden" />( 191106041487 ) <br class="md:hidden" />( Ketua Kelompok ) <br /><br class="md:hidden" />2. Andhika Rahmatullah <br class="md:hidden" />( 191106041448 ) <br /><br class="md:hidden" />3. Asep Rizki Haerudin <br class="md:hidden" />( 191106041437 ) <br /><br class="md:hidden" />4. Ferdiansyah Albana <br class="md:hidden" />( 191106041486 ) <br /><br class="md:hidden" />5. Hilal Oscha Mazzid Akbar <br class="md:hidden" />( 191106041455 )</p>
+				</div>
+				<!-- jadwal -->
+				<div class="m-2 grid md:grid-cols-3 mb-16 md:mb-5">
+					<p class="text-2xl font-3 text-white md:border-2 p-2 grid content-center mb-4 md:mb-0">Jadwal Pelaksanaan :</p>
+					<p class="text-2xl font-3 text-white md:col-span-2 p-2 border-2 rounded-lg md:rounded-none md:border-t-2 md:border-b-2 md:border-r-2 grid md:content-center content-start">11 Juli - 11 Agustus 2022</p>
+				</div>
+				<!-- proker -->
+				<div class="m-2 grid md:grid-cols-3 mb-16 md:mb-5">
+					<p class="text-2xl font-3 text-white md:border-2 p-2 grid content-center mb-4 md:mb-0">Program Kerja :</p>
+					<p class="text-2xl font-3 text-white md:col-span-2 p-2 border-2 rounded-lg md:rounded-none md:border-t-2 md:border-b-2 md:border-r-2 grid md:content-center content-start">1. Pengenalan Software dan Hardware <br />2. Pengenalan Komputer <br />3. Pengenalan E-Commerce <br />4. Membatu sistem website Sekolah dan Kantor Desa</p>
+				</div>
+				<!-- fokus lokasi -->
+				<div class="m-2 grid md:grid-cols-3 mb-16 md:mb-5">
+					<p class="text-2xl font-3 text-white md:border-2 p-2 grid content-center mb-4 md:mb-0">Fokus Lokasi :</p>
+					<p class="text-2xl font-3 text-white md:col-span-2 p-2 border-2 rounded-lg md:rounded-none md:border-t-2 md:border-b-2 md:border-r-2 grid md:content-center content-start">1. SD Negeri Neglasari<br />2. Kantor Desa Sipak</p>
+				</div>
+				<!-- visi -->
+				<div class="m-2 grid md:grid-cols-3 mb-16 md:mb-5">
+					<p class="text-2xl font-3 text-white md:border-2 p-2 grid content-center mb-4 md:mb-0">Visi Kelompok :</p>
+					<p class="text-2xl font-3 text-white md:col-span-2 p-2 border-2 rounded-lg md:rounded-none md:border-t-2 md:border-b-2 md:border-r-2 grid md:content-center content-start text-justify">Membantu memajukan dan memperluas wawasan Siswa serta Masyarakat Desa Sipak tentang Informasi Teknologi.</p>
+				</div>
+			</div>
+		</section>
+
+		<script src="./beranda.js"></script>
+	</body>
+</html>
