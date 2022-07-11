@@ -123,25 +123,25 @@ cari.addEventListener("click", function () {
 				ignama = data[i][`ignama`];
 
 				if (kapital(val) === nama) {
-					hasil += `<ul>
-					<li class="mb-3"> Nama Lengkap :<br> ${nama}</li>
-					<li class="mb-3"> Kelahiran Tahun :<br> ${tahunLahir}</li>
-					<li class="mb-3"> Nomor Pokok Mahasiswa :<br> ${npm}</li>
-					<li class="mb-3"> Program Studi :<br> ${prodi}</li>
-					<li class="mb-3"> Semester :<br> ${semester}</li>
-					<li class="mb-3"> Nomor Telepon :<br> ${notel}</li>				
-					<li>Instagram :<br> <a href="${instagram}" class="italic">${ignama}</a></li>				
+					hasil += `<ul class="cursor-default">
+					<li class="mb-3"> - Nama Lengkap :<br class="md:hidden"> ${nama}</li>
+					<li class="mb-3"> - Kelahiran Tahun :<br class="md:hidden"> ${tahunLahir}</li>
+					<li class="mb-3"> - Nomor Pokok Mahasiswa :<br class="md:hidden"> ${npm}</li>
+					<li class="mb-3"> - Program Studi :<br class="md:hidden"> ${prodi}</li>
+					<li class="mb-3"> - Semester :<br class="md:hidden"> ${semester}</li>
+					<li class="mb-3"> - Nomor Telepon :<br class="md:hidden"> ${notel}</li>				
+					<li> - Instagram :<br class="md:hidden"> <a href="${instagram}" class="italic">${ignama}</a></li>				
 					</ul>`
 				};
 				if (kapital(val) === npm) {
-					hasil += `<ul>
-					<li class="mb-3"> Nama Lengkap :<br> ${nama}</li>
-					<li class="mb-3"> Kelahiran Tahun :<br> ${tahunLahir}</li>
-					<li class="mb-3"> Nomor Pokok Mahasiswa :<br> ${npm}</li>
-					<li class="mb-3"> Program Studi :<br> ${prodi}</li>
-					<li class="mb-3"> Semester :<br> ${semester}</li>
-					<li class="mb-3"> Nomor Telepon :<br> ${notel}</li>				
-					<li>Instagram :<br> <a href="${instagram}" class="italic">${ignama}</a></li>				
+					hasil += `<ul class="cursor-default">
+					<li class="mb-3"> - Nama Lengkap :<br class="md:hidden"> ${nama}</li>
+					<li class="mb-3"> - Kelahiran Tahun :<br class="md:hidden"> ${tahunLahir}</li>
+					<li class="mb-3"> - Nomor Pokok Mahasiswa :<br class="md:hidden"> ${npm}</li>
+					<li class="mb-3"> - Program Studi :<br class="md:hidden"> ${prodi}</li>
+					<li class="mb-3"> - Semester :<br class="md:hidden"> ${semester}</li>
+					<li class="mb-3"> - Nomor Telepon :<br class="md:hidden"> ${notel}</li>				
+					<li> - Instagram :<br class="md:hidden"> <a href="${instagram}" class="italic">${ignama}</a></li>				
 					</ul>`
 				}
 
