@@ -113,12 +113,14 @@ cari.addEventListener("click", function () {
 				tahunLahir = data[i][`tahunLahir`];
 				instagram = data[i][`instagram`];
 				ignama = data[i][`ignama`];
+				fakultas = data[i][`fakultas`]
 
 				if (kapital(val) === nama) {
 					hasil += `<ul class="cursor-default">
 					<li class="mb-3"> - Nama Lengkap :<br class="md:hidden"> ${nama}</li>
 					<li class="mb-3"> - Kelahiran Tahun :<br class="md:hidden"> ${tahunLahir}</li>
 					<li class="mb-3"> - Nomor Pokok Mahasiswa :<br class="md:hidden"> ${npm}</li>
+					<li class="mb-3"> - Fakultas :<br class="md:hidden"> ${fakultas}</li>
 					<li class="mb-3"> - Program Studi :<br class="md:hidden"> ${prodi}</li>
 					<li class="mb-3"> - Semester :<br class="md:hidden"> ${semester}</li>
 					<li class="mb-3"> - Nomor Telepon :<br class="md:hidden"> ${notel}</li>				
@@ -130,6 +132,7 @@ cari.addEventListener("click", function () {
 					<li class="mb-3"> - Nama Lengkap :<br class="md:hidden"> ${nama}</li>
 					<li class="mb-3"> - Kelahiran Tahun :<br class="md:hidden"> ${tahunLahir}</li>
 					<li class="mb-3"> - Nomor Pokok Mahasiswa :<br class="md:hidden"> ${npm}</li>
+					<li class="mb-3"> - Fakultas :<br class="md:hidden"> ${fakultas}</li>
 					<li class="mb-3"> - Program Studi :<br class="md:hidden"> ${prodi}</li>
 					<li class="mb-3"> - Semester :<br class="md:hidden"> ${semester}</li>
 					<li class="mb-3"> - Nomor Telepon :<br class="md:hidden"> ${notel}</li>				
