@@ -118,7 +118,7 @@ cari.addEventListener("click", function () {
 				if (kapital(val) === nama) {
 					hasil += `<ul class="cursor-default">
 					<li class="mb-3"> - Nama Lengkap :<br class="md:hidden"> ${nama}</li>
-					<li class="mb-3"> - Kelahiran Tahun :<br class="md:hidden"> ${tahunLahir}</li>
+					<li class="mb-3"> - Tahun Kelahiran :<br class="md:hidden"> ${tahunLahir}</li>
 					<li class="mb-3"> - Nomor Pokok Mahasiswa :<br class="md:hidden"> ${npm}</li>
 					<li class="mb-3"> - Fakultas :<br class="md:hidden"> ${fakultas}</li>
 					<li class="mb-3"> - Program Studi :<br class="md:hidden"> ${prodi}</li>
@@ -130,7 +130,7 @@ cari.addEventListener("click", function () {
 				if (kapital(val) === npm) {
 					hasil += `<ul class="cursor-default">
 					<li class="mb-3"> - Nama Lengkap :<br class="md:hidden"> ${nama}</li>
-					<li class="mb-3"> - Kelahiran Tahun :<br class="md:hidden"> ${tahunLahir}</li>
+					<li class="mb-3"> - Tahun Kelahiran :<br class="md:hidden"> ${tahunLahir}</li>
 					<li class="mb-3"> - Nomor Pokok Mahasiswa :<br class="md:hidden"> ${npm}</li>
 					<li class="mb-3"> - Fakultas :<br class="md:hidden"> ${fakultas}</li>
 					<li class="mb-3"> - Program Studi :<br class="md:hidden"> ${prodi}</li>
