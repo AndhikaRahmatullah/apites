@@ -1,23 +1,52 @@
 [
 	{
 		"nama": "Andhika Rahmatullah",
-		"tempatLahir": "Bogor",
-		"tanggalLahir": "20 Maret 2001",
-		"email": "dikarahmatullah909@gmail.com",
-		"pendidikan": "SMA"
+		"npm": "191106041448",
+		"prodi": "Teknik Informatika",
+		"tahunLahir": "2001",
+		"notel": "088290338993",
+		"semester": "VI (Enam)",
+		"ignama": "andhikarhmt_",
+		"instagram": "https://www.instagram.com/andhikarhmt_/"
 	},
 	{
-		"nama": "Gathan Rahmanda",
-		"tempatLahir": "Bogor",
-		"tanggalLahir": "15 Oktober 2005",
-		"email": "gathanrahmanda@gmail.com",
-		"pendidikan": "SMP"
+		"nama": "Asep Rizki Haerudin",
+		"npm": "191106041437",
+		"prodi": "Teknik Informatika",
+		"tahunLahir": "2001",
+		"notel": "083807576377",
+		"semester": "VI (Enam)",
+		"ignama": "sanca07_",
+		"instagram": "https://www.instagram.com/sanca07_/"
 	},
 	{
-		"nama": "Fazra Ramadhana",
-		"tempatLahir": "Bogor",
-		"tanggalLahir": "08 November 2002",
-		"email": "fazraramadhana@gmail.com",
-		"pendidikan": "SMK"
+		"nama": "Ferdiansyah Albana",
+		"npm": "191106041486",
+		"prodi": "Teknik Informatika",
+		"tahunLahir": "2001",
+		"notel": "089519098359",
+		"semester": "VI (Enam)",
+		"ignama": "ferdiansyahalb_",
+		"instagram": "https://www.instagram.com/ferdiansyahalb_/"
+	},
+	{
+		"nama": "Hilal Oscha Mazzid Akbar",
+		"npm": "191106041455",
+		"prodi": "Teknik Informatika",
+		"tahunLahir": "2000",
+		"notel": "089605615011",
+		"semester": "VI (Enam)",
+		"ignama": "hilaloscha_ma",
+		"instagram": "https://www.instagram.com/hilaloscha_ma/"
+	},
+	{
+		"nama": "Muhammad Irfan Nur Hikmah",
+		"npm": "191106041487",
+		"prodi": "Teknik Informatika",
+		"tahunLahir": "2000",
+		"notel": "087838067020",
+		"semester": "IV (Empat)",
+		"ignama": "irfannurhikmh",
+		"instagram": "https://www.instagram.com/irfannurhikmh/"
 	}
 ]

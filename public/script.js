@@ -114,20 +114,37 @@ cari.addEventListener("click", function () {
 			}
 			for (let i = 0; i < data.length; i++) {
 				let nama = data[i][`nama`],
-					tempatLahir = data[i][`tempatLahir`],
-					tanggalLahir = data[i][`tanggalLahir`];
-				email = data[i][`email`];
-				pendidikan = data[i][`pendidikan`];
+					npm = data[i][`npm`],
+					prodi = data[i][`prodi`];
+				semester = data[i][`semester`];
+				notel = data[i][`notel`];
+				tahunLahir = data[i][`tahunLahir`];
+				instagram = data[i][`instagram`];
+				ignama = data[i][`ignama`];
 
 				if (kapital(val) === nama) {
 					hasil += `<ul>
-					<li> Nama Lengkap : ${nama}</li>
-					<li> Tempat, Tanggal Lahir : ${tempatLahir}, ${tanggalLahir}</li>
-					<li> Email : ${email}</li>
-					<li> Pendidikan Terakhir : ${pendidikan}</li>
-					<br>
+					<li class="mb-3"> Nama Lengkap :<br> ${nama}</li>
+					<li class="mb-3"> Kelahiran Tahun :<br> ${tahunLahir}</li>
+					<li class="mb-3"> Nomor Pokok Mahasiswa :<br> ${npm}</li>
+					<li class="mb-3"> Program Studi :<br> ${prodi}</li>
+					<li class="mb-3"> Semester :<br> ${semester}</li>
+					<li class="mb-3"> Nomor Telepon :<br> ${notel}</li>				
+					<li>Instagram :<br> <a href="${instagram}" class="italic">${ignama}</a></li>				
+					</ul>`
+				};
+				if (kapital(val) === npm) {
+					hasil += `<ul>
+					<li class="mb-3"> Nama Lengkap :<br> ${nama}</li>
+					<li class="mb-3"> Kelahiran Tahun :<br> ${tahunLahir}</li>
+					<li class="mb-3"> Nomor Pokok Mahasiswa :<br> ${npm}</li>
+					<li class="mb-3"> Program Studi :<br> ${prodi}</li>
+					<li class="mb-3"> Semester :<br> ${semester}</li>
+					<li class="mb-3"> Nomor Telepon :<br> ${notel}</li>				
+					<li>Instagram :<br> <a href="${instagram}" class="italic">${ignama}</a></li>				
 					</ul>`
 				}
+
 				tes.innerHTML = hasil;
 			}
 		})
